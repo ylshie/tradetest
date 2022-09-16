@@ -49,7 +49,7 @@ class Banner extends React.Component {
                 </div>
                 <Block>
                     <a href="/kof">
-                        { MyBan("2022-08-03 20.19.png")}
+                        { MyBan("2022-08-03_20.19.png")}
                         <Comment>
                         Discover our Latest Project ! Powered by SNK
                         </Comment>

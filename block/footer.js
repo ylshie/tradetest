@@ -8,7 +8,7 @@ class Footer extends React.Component {
             <div className={styles.styleFooter}>
                 <div id={styles.styleFootIcon}>
                     <Image
-                        src= {"/images/DEMO_00104 1.png"} // Route of the image file
+                        src= {"/images/DEMO_00104.png"} // Route of the image file
                         height={130} // Desired size with correct aspect ratio
                         width={158} // Desired size with correct aspect ratio
                         alt="Demo"

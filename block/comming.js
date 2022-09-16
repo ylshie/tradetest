@@ -24,7 +24,7 @@ class CommingSoon extends React.Component {
             <Grid>
                 <div id={styles.styleComing}>
                     <div id={styles.styleOverParent}>
-                    { MyCome("cyber dino.png")}
+                    { MyCome("cyber_dino.png")}
                     { MyCome("coming1.svg")}
                     </div>
                 </div>
