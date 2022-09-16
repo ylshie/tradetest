@@ -1,8 +1,8 @@
-.styleComing {
+#styleComing {
     margin-left: 10px;
     filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 0.5));
 }
-.styleOverParent {
+#styleOverParent {
     position: relative;
     width: 400px;
     height: 350px;

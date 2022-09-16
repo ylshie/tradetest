@@ -109,6 +109,11 @@
     left: 160px;
 }
 
+#idol {
+    width: 451px;
+    height: 451px;
+}
+
 .Arrow {
     position: absolute;
 }
@@ -247,6 +252,10 @@
         width: 350px;
         height: 250px;
     }
+    #idol {
+        width: 220px;
+        height: 220px;
+    }
     .Person {
         width: 230px;
         height: 230px;
@@ -254,11 +263,11 @@
         left: 60px;
     }
     #LeftArrow {
-        top: 120px;
-        left: 30px;
+        top: 110px;
+        left: 20px;
     }
     #RightArrow {
-        top: 150px;
+        top: 110px;
         left: 300px;
     }
     .Intro {
