@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Image from 'next/image';
+//import Link from 'next/link';
+//import Image from 'next/image';
 import Head from 'next/head';
-import Script from 'next/script';
+//import Script from 'next/script';
 //
 import Header from '../block/header';
 import Footer from '../block/footer';
@@ -24,6 +24,7 @@ export default function Trade3() {
             <title>Trade3</title>
         </Head>
         
+        <div class="backimage"></div>
         <Header/>
         <Banner/>
         <CommingSoon/>

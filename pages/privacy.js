@@ -13,6 +13,7 @@ export default function pagePrivacy() {
                 <title>Privacy policy</title>
             </Head>
             
+            <div class="backimage"></div>
             <Header/>
             <div className={styles.TOUTitle}>
             Privacy policy

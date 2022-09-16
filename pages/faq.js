@@ -22,6 +22,7 @@ export default function pageFAQ() {
             <Head>
                 <title>FAQ</title>
             </Head>
+            <div class="backimage"></div>
                 <Header/>
                 <div className={commstyles.TOUTitle}>
                 FAQ

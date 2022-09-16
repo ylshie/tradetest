@@ -22,6 +22,7 @@ export default function pageCollection() {
                 <title>Collectionn</title>
             </Head>
 
+            <div class="backimage"></div>
             <Header/>
             <div className={styles.outbox}>
                 <div className={styles.box}>

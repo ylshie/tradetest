@@ -13,6 +13,7 @@ export default function pageTOU() {
                 <title>Term of Use</title>
             </Head>
             
+            <div class="backimage"></div>
             <Header/>
             <div className={styles.TOUTitle}>
             TERMS OF USE

@@ -168,6 +168,7 @@ export default function pageKOF() {
             <Head>
                 <title>King of Fighter</title>
             </Head>
+            <div class="backimage"></div>
             <Header/>
             
                 <BannerBox></BannerBox>
