@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import React from "react";
 //
 import Header from "../block/header"
 import Footer from "../block/footer";
@@ -17,40 +18,111 @@ var Intro = ({ children }) => {
     return <div className={styles.Intro}>{children}</div>;
 }
 var Person = ({ children }) => {
-    return <div className={styles.Person}>{children}</div>;
+    return <div id={styles.Person}>{children}</div>;
 }
 var Arrow = ({ children }) => {
     return <div className={styles.Arrow} id={styles.LeftArrow}>{children}</div>;
 }
 
-export default function pageKOF() {
-    return (
-        <>
-            <Head>
-                <title>King of Fighter</title>
-            </Head>
+class Welcome extends React.Component {
+    constructor(props) {
+        super(props);
+        // Created ref
+        this.myInputRef = React.createRef();
+        this.getInputValue = this.getInputValue.bind(this);
+    }
+    getInputValue() {
+        const inputValue = this.myInputRef.current.value;
+        alert(inputValue)
+    }
+    render() {
+        return (
+            <>
+              <div>
+                <input type="text" ref={this.myInputRef} />
+                <button onClick={this.getInputValue}>Submit</button>
+              </div>
+            </>
+          );
+    }
+}
 
-            <Header/>
+const mai = {
+    image: "不知火舞.png",
+    name: "Mai Shiranui",
+    detail: "Shiranui’s parents died when she was a child, and subsequently was raised by her grandfather. She fell in love with Andy, who also trained under her grandfather. She seduces her opponent with her sexy appearance before destroying them. She dresses conservatively in private and is good at illustration, cooking, playing the piano and tea ceremony.",
+    special: "- Ninja Bee",
+    super: "- Super Ninja Bee<br\/>- Dance of the Phoenix<br\/>- Dance of the Water Bird<br\/>"
+}
+
+const iori = {
+    image: "不知火舞2.png",
+    name: "IORI YAGAMI",
+    detail: "FIGHTING STYLE: YAGAMI STYLE OF ANCIENT MARTIAL ARTS + PURE INSTINCT.<br\>BIRTHDAY: MARCH 25<br/>HEIGHT: 182cm<br/>WEIGHT: 76kg<br/>",
+    special: "- Ninja Bee",
+    super: "- Super Ninja Bee<br\/>- Dance of the Phoenix<br\/>- Dance of the Water Bird<br\/>"
+}
+
+class BannerBox extends React.Component {
+    constructor(props) {
+        super(props);
+        // Created ref
+        this.c_image = React.createRef();
+        this.c_name = React.createRef();
+        this.c_detail = React.createRef();
+        this.c_special = React.createRef();
+        this.c_super = React.createRef();
+        this.a_left = React.createRef();
+        this.a_right = React.createRef();
+        this.onLeft = this.onLeft.bind(this);
+        this.onRight = this.onRight.bind(this);
+    }
+    onLeft() {
+        this.c_image.current.src = "/images/" + mai.image
+        this.c_name.current.innerHTML = mai.name;
+        this.c_detail.current.innerHTML = mai.detail;
+        this.c_special.current.innerHTML = mai.special;
+        this.c_super.current.innerHTML = mai.super;
+        this.a_right.current.style.visibility = "visible";
+        this.a_left.current.style.visibility = "hidden";
+    }
+    onRight() {
+        //const inputValue = this.myInputRef.current.value;
+        //alert(this.image_2)
+        this.c_image.current.src = "/images/" + iori.image;
+        this.c_name.current.innerHTML = iori.name;
+        this.c_detail.current.innerHTML = iori.detail;
+        this.c_special.current.innerHTML = iori.special;
+        this.c_super.current.innerHTML = iori.super;
+        this.a_left.current.style.visibility = "visible";
+        this.a_right.current.style.visibility = "hidden";
+    }
+    render() {
+        return (
             <IntroBox>
                 <RoundBox>
-                    <div className={styles.Arrow} id={styles.LeftArrow}>
-                        <Image
+                    <div className={styles.Arrow} id={styles.LeftArrow} onClick={this.onLeft}>
+                        <img
+                            ref={this.a_left}
                             src= {"/images/left.svg"} // Route of the image file
                             height={36} // Desired size with correct aspect ratio
                             width={36} // Desired size with correct aspect ratio
                             alt="left"
                         />
                     </div>
-                    <Person>
-                        <Image
-                            src= {"/images/不知火舞.png"} // Route of the image file
+                    <div id={styles.Person}>
+                        <img
+                            id={styles.idol1}
+                            ref={this.c_image}
+                            src= {"/images/" + mai.image} // Route of the image file
                             height={451} // Desired size with correct aspect ratio
                             width={451} // Desired size with correct aspect ratio
                             alt="Your Name"
                         />
-                    </Person>
-                    <div className={styles.Arrow} id={styles.RightArrow}>
-                        <Image
+                    </div>
+                    <div className={styles.Arrow} id={styles.RightArrow} onClick={this.onRight}>
+                        <img
+                            ref={this.a_right}
                             src= {"/images/right.svg"} // Route of the image file
                             height={36} // Desired size with correct aspect ratio
                             width={36} // Desired size with correct aspect ratio
@@ -62,29 +134,45 @@ export default function pageKOF() {
                     <div className={styles.SubTitle}>
                     character introduction
                     </div>
-                    <div className={styles.Name}>
-                    Mai Shiranui
+                    <div className={styles.Name} ref={this.c_name}>
+                    {mai.name}
                     </div>
-                    <div className={styles.Detail}>
-                    Shiranui’s parents died when she was a child, and subsequently was raised by her grandfather. She fell in love with Andy, who also trained under her grandfather. She seduces her opponent with her sexy appearance before destroying them. She dresses conservatively in private and is good at illustration, cooking, playing the piano and tea ceremony.
+                    <div className={styles.Detail} ref={this.c_detail}>
+                    {mai.detail}
                     </div>
                     <br/>
                     <div className={styles.SubTitle}>
                     Special move: 
                     </div>
-                    <div className={styles.Detail}>
-                    - Ninja Bee
+                    <div className={styles.Detail} ref={this.c_special}>
+                    {mai.special}
                     </div>
                     <div className={styles.SubTitle}>
                     Super Special move: 
                     </div>
-                    <div className={styles.Detail}>
-                    - Super Ninja Bee<br/>
-                    - Dance of the Phoenix<br/>
-                    - Dance of the Water Bird<br/>
+                    <div className={styles.Detail} ref={this.c_super}>
+                    {mai.super}
                     </div>
                 </Intro>
             </IntroBox>
+          );
+    }
+}
+
+//import image1 from url("./images/不知火舞.png")
+//import image2 from url("./images/不知火舞2.png")
+
+export default function pageKOF() {    
+    return (
+        <>
+            <Head>
+                <title>King of Fighter</title>
+            </Head>
+            <Header/>
+            
+                <BannerBox></BannerBox>
+                
+            
             <div className={styles.Title}>
                 Invitaion to the TRADE3.0 contest
             </div>

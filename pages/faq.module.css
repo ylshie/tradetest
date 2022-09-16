@@ -1,3 +1,28 @@
+.styleOverParent {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.styleOver {
+    position: absolute;
+}
+
+.fontBullet {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 4px;
+}
+
 .cc_container {
     column-count: 1;
     column-gap: 20px; 

@@ -22,14 +22,14 @@ class CommingSoon extends React.Component {
     render() {
         return (
             <Grid>
-                <div id={styles.styleComing}>
-                    <div id={styles.styleOverParent}>
+                <div className={styles.styleComing}>
+                    <div className={styles.styleOverParent}>
                     { MyCome("cyber_dino.png")}
                     { MyCome("coming1.svg")}
                     </div>
                 </div>
-                <div id={styles.styleComing}>
-                    <div id={styles.styleOverParent}>
+                <div className={styles.styleComing}>
+                    <div className={styles.styleOverParent}>
                         { MyCome("jamojaya.png")}
                         { MyCome("coming1.svg")}
                     </div>

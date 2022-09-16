@@ -2,9 +2,19 @@ import Header from "../block/header"
 import Footer from "../block/footer";
 import Partner from "../block/partner";
 import Head from "next/head";
+import Image from "next/image";
 //import Layout from "../components/layout";
 import commstyles from "./tou.module.css"
 import styles from "./faq.module.css"
+
+const Bullet = ({children}) => (
+    <div className={styles.styleOverParent}>
+        <div className={styles.styleOver}>
+            <Image src="/images/Ellipse.png" width="40px" height="40px"/>
+        </div>
+        <div className={styles.fontBullet}>{children}</div>
+    </div>
+);
 
 export default function pageFAQ() {
     return (
@@ -20,7 +30,7 @@ export default function pageFAQ() {
                 WHAT IS Trade3.0?
                 </div>
                 <div className={commstyles.TOUDetail}>
-                Trade3.0 is the first NFT Launchpad platform to focus on combining insurance, trade and empowerment. Apart from integrating the technique called ERC20 and supporting stable currency trade, our technology team is developing the transaction module of legal tender in the meantime to make everyone participate in “Trade” and enjoy the fun of “Web3”.
+                Trade3.0 is the first NFT Launchpad platform to focus on combining insurance, trading and utility. Trade3.0 combined with ERC20 technology to support stable currency transactions, our technical team develops a legal currency transaction module at the same time for everyone to participate in "trade" and enjoy "Web3".
                 </div>
                 <div className={commstyles.TOUSubTitle}>
                 HOW DO I JOIN Trade3.0?
@@ -55,7 +65,7 @@ export default function pageFAQ() {
                         Step Four
                         </div>
                         <div className={styles.step_detail}>
-                        Connect the wallet after verification, and start enjoying the fun of Trade3.0.
+                        After verification, connect the wallet and start enjoying Trade3.0.
                         </div>
                     </div>
                 </div>
@@ -76,29 +86,43 @@ export default function pageFAQ() {
                 </div>
                 <div className={styles.mint_group}>
                     <div className={styles.mint_box}>
-                        <div>1</div>
+                        <Bullet>1</Bullet>
+                        {/*}
+                        <div className={styles.styleOverParent}>
+                            <div className={styles.styleOver}>
+                                <Image src="/images/Ellipse.png" width="40px" height="40px"/>
+                            </div>
+                            <div className={styles.fontBullet}>1</div>
+                        </div>
+                        */}
                         <div>Sign in or Login Trade3.0</div>
                     </div>
                     <div className={styles.mint_box}>
-                        <div>2</div>
+                        <Bullet>2</Bullet>
                         <div>Connect your wallet</div>
                     </div>
                     <div className={styles.mint_box}>
-                        <div>3</div>
+                        <Bullet>3</Bullet>
                         <div>Pick your favorite collection</div>
                     </div>
                     <div className={styles.mint_box}>
-                        <div>4</div>
+                        <Bullet>4</Bullet>
                         <div>Click “MINT”</div>
                     </div>
                     <div className={styles.mint_box}>
-                        <div>5</div>
+                        <Bullet>5</Bullet>
                         <div>Comfirm with Wallet</div>
                     </div>
                     <div className={styles.mint_box}>
-                        <div>6</div>
+                        <Bullet>6</Bullet>
                         <div>Congrats!! You have your first nft now</div>
                     </div>
+                </div>
+                <div className={commstyles.TOUSubTitle}>
+                HOW DO I ADJUST GAS IN WALLET?
+                </div>
+                <div className={commstyles.TOUDetail}>
+                We use Metamask for example.
                 </div>
                 <div className={commstyles.TOUSubTitle}>
                 ARE THERE PLATFORM FEES?
@@ -116,63 +140,62 @@ export default function pageFAQ() {
                 HOW CAN I STAY SAFE FROM SCAMS?
                 </div>
                 <div className={styles.cc_container}>
-                <h4>TL;DR:</h4>
-                Make sure you’re buying a piece that originates from an authentic Trade3.0 address.
+                Make sure your purchases originate from a real Trade3.0 address.
                 <br/>
-                Do not answer unsolicited direct messages
+                Do not reply to unsolicited direct messages
                 <br/>
-                Do not engage in trust-based trades
+                Do not engage in trust-based transactions
                 <br/>
-                Use common sense. If it’s too good to be true, it probably is.
+                Use common sense. If it's too good to be true, it probably is.
                 <br/>
                 <br/>
-                <h4>How to determine the authenticity of a collection</h4>
-                If you’re unsure about the authenticity of a collection, we suggest checking the contract address in the OpenSea URL. All Trade3.0 projects are connected to one of the following smart contract addresses:
+                How to judge the authenticity of the collection
                 <br/>
-                ETHEREUM Block Chain Address
+                If you are not sure about the authenticity of the collection, we recommend that you check the contract address.
                 <br/>
-                SOLANA Block Chain Address
+                All Trade3.0 projects are connected to one of the following smart contract addresses:
                 <br/>
-                POLYGON Block Chain Address
+                ETHEREUM BlockChain Address
                 <br/>
-                OpenSea URLs use the following format: https://opensea.io/assets/[contract-address]/[token_id]
+                SOLANA BlockChain Address
                 <br/>
-                Do not engage with unsolicite1d DMs
+                POLYGON BlockChain Address
                 <br/>
-                If you’ve spent any amount of time in Discord (or social media), you’ve probably had a stranger reach out through a direct message. It’s harmless most of the time, but any unsolicited message should be met with a healthy dose of skepticism.
+                Do not engage with unsolicited DMs
+                <br/>
+                If you have contacted strangers in Discord (or social media) direct messages. Most of the time the message may be a scam message and the official will not contact you directly
+                <br/>
                 <br/>
                 To avoid these types of attacks, we recommend two options:
                 <br/>
                 Turn off direct messages from strangers.
                 <br/>
+                Do not click links from untrusted sources. If someone is sharing something with you, we highly recommend using a little Google to find it yourself. Bad actors can create persuasive phishing websites.
                 <br/>
-                Do not click links from untrusted sources. If someone is sharing something with you, we highly recommend using a little Google-fu to find it yourself. Bad actors can create persuasive phishing websites.
                 <br/>
+                Trust-Based Trades
                 <br/>
-                <h4>Trust-Based Trades</h4>
                 The crypto ecosystem is designed to remove trust from the transaction process. The blockchain’s rules are structured so intermediaries are largely taken out of the equation, and people have ultimate control over their assets. However, private trade agreements inject trust back into the process in a way that also increases the likelihood of being scammed.
                 <br/>
                 <br/>
-                <h4>How to trade</h4>
+                How to trade
+                <br/>
                 To avoid being the victim during a trade, we recommend NEVER sending a piece and expecting to get something in return. Instead, use a swapping website. Use Common Sense
                 <br/>
                 The best line of defense against online scams is to use common sense and assume anyone reaching out privately has ulterior motives. Of course, con artists will evolve their tactics, but approaching every online interaction with skepticism will reduce your exposure to being compromised. And remember: if it sounds too good to be true, it probably is.
-                <br/>
                 </div>
                 <div className={commstyles.TOUSubTitle}>
                 HOW TO BE A Trade3.0 CREATOR?
                 </div>
                 <div className={commstyles.TOUDetail}>
-                Are you digging entrepreneurship through sharing your creativity? Do you ever feel that you need a hand in establishing your IP? Please open a ticket on Trade3.0 discord server or send your work to service@trade3.com.
-                <br/><br/>
-                Trade3.0 will introduce more cooperation, encourage more exposure to artistic creation, integrate commerce through Trade3.0, and return traffic bonuses to artists. If you are interested in joining Trade3.0 creators,
+                Are you digging entrepreneurship through sharing your creativity? Do you ever feel that you need a hand in establishing your IP? Trade3.0 will introduce more cooperation, encourage more exposure to artistic creation, integrate commerce through Trade3.0, and return traffic bonuses to artists. If you are interested in joining Trade3.0 creators, please open a ticket on Trade3.0 discord server or send your work to service@trade3.com.
                 </div>
                 <div className={commstyles.TOUSubTitle}>
                 WHAT IF MY QUESTION ISN’T ANSWERED HERE?
                 </div>
                 <div className={commstyles.TOUDetail}>
                 Our Discord server is where you'll find our thriving community of artists and collectors. In Discord not only can you join daily conversations about upcoming drops, but you'll also be in the best place to ask us for help. You'll find information about our artist application process, upcoming projects, user feedback & announcements for all things Trade3.0.
-                <br/><br/>
+                <br/>
                 We hope to see you there!
                 </div>
                 <Partner/>
