@@ -103,17 +103,12 @@
     color: #000000;
 }
 
-#Person {
+.Person {
     position: absolute;
     top: 40px;
     left: 160px;
 }
-#idol {
-    visibility: visible;
-}
-#idol2 {
-    visibility: hidden;
-}
+
 .Arrow {
     position: absolute;
 }

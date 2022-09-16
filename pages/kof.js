@@ -110,9 +110,9 @@ class BannerBox extends React.Component {
                             alt="left"
                         />
                     </div>
-                    <div id={styles.Person}>
+                    <div className={styles.Person}>
                         <img
-                            id={styles.idol1}
+                            id={styles.idol}
                             ref={this.c_image}
                             src= {"/images/" + mai.image} // Route of the image file
                             height={451} // Desired size with correct aspect ratio
