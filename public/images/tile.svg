@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+    rect{fill:url(#MyGradient)}
+  </style>
+  <defs>
+    <linearGradient id="MyGradient">
+      <stop offset="60%" stop-color="#F9F9F9" />
+      <stop offset="81%" stop-color="#E0AB7A" />
+      <stop offset="98%" stop-color="#B09191" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%"/>
+</svg>
+

@@ -1,0 +1,7 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+    <rect fill="#FFFFFF" y="100" width="400" height="80" transform="skewY(15)" />
+    <rect fill="#E2D2BE" y= "80" width="400" height="80" transform="skewY(15)" />
+    <text x="80" y="130" fill="black" transform="rotate(15)" style="font-family:Abril Fatface; font-size: 45px; font-weight: 400;">Coming Soon </text>
+</svg>
+
+

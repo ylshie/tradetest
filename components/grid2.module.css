@@ -1,0 +1,28 @@
+.grid2_container {
+    display: grid;
+    grid-template-columns: auto;
+    /*background-color: #2196F3; */
+    padding: 10px;
+    justify-content: space-evenly;
+    }
+    
+@media (min-width: 1200px){
+    .grid2_container {
+        display: grid;
+        grid-template-columns: auto auto;
+        /*background-color: #2196F3;*/
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 2000px){
+    .grid2_container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        /*background-color: #2196F3;*/
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+}
+

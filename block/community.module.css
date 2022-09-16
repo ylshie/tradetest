@@ -1,0 +1,73 @@
+#styleTitle {
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 200%;
+    text-align: center;
+    color: #000000;
+}
+#styleDetail {
+    width:  599px; /*'599px', */
+    height: 48px;
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: justify;
+    color: #000000;
+}
+#styleCommunityTitle {
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+#styleCommunity {
+    width: 593.8px;
+}
+#styleCommImage {
+    box-sizing: border-box;
+    width: 593.8px;
+    height: 366.52px;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    font-family: Aoboshi One;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 160px 0;
+}
+
+@media (max-width: 400px){
+    #styleCommunityTitle {
+        font-size: 36px;
+    }
+    #styleCommunity {
+        width: 340px;
+    }
+    #styleCommImage {
+        width: 340px;
+        height: 200px;
+    }
+    #styleTitle {
+        font-size: 30px;
+    }
+    #styleDetail {
+        width:  340px; 
+        height: 60px;
+        font-size: 16px;
+    }
+}
+

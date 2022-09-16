@@ -1,0 +1,55 @@
+.stylePartner {
+    height: 154px;
+    background: linear-gradient(102.98deg, #D3D4D5 5.39%, rgba(224, 171, 122, 0.291667) 40.84%, rgba(224, 171, 122, 0.291667) 65.09%);
+    font-family: ABeeZee;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+}
+
+.partnerText {
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.iconNewave {
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 40px;
+}
+
+.iconSecondLive {
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 40px;
+}
+
+@media (max-width: 400px){
+    .stylePartner {
+        font-size: 20px;
+        height: 120px;
+    }
+    .partnerText {
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .iconNewave {
+        width: 160px;
+        height: 48px;
+        padding-top: 10px;
+        padding-left: 160px;
+    }
+    
+    .iconSecondLive {
+        width: 160px;
+        height: 48px;
+        padding-top: 60px;
+        padding-left: 160px;
+    }
+}

@@ -1,0 +1,148 @@
+.header {
+    background-image: url("/images/tile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100px;
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+#logo {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    top: 10px;
+    left: 15px;
+}
+/*
+#headtext {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 240px;
+}
+*/
+#headtext {
+    position: absolute;
+    top: 25px;
+    margin-left: 240px;
+}
+#textFAQ {
+    position: absolute;
+    top: 25px;
+    margin-left: 320px;
+}
+
+#styleCollection {
+    margin-left: 100px;
+}
+
+#styleFAQ {
+    margin-left: 200px;
+    color: red;
+}
+
+#iconTwitter {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 160px;
+}
+
+#iconFB {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 110px;
+}
+
+#iconDC {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 60px;
+}
+
+#iconProfile {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+@media (max-width: 600px){
+    .header {
+        height: 60px;
+    }
+    #logo {
+        width: 160px;
+        height: 36px;
+    }
+    #headtext {
+        position: absolute;
+        top: 20px;
+        margin-left: 190px;
+    }
+    #textFAQ {
+        position: absolute;
+        top: 20px;
+        margin-left: 270px;
+    }
+    #styleCollection {
+        left: 90px;
+    }
+    #styleFAQ {
+        left: 180px;
+    }
+    #iconTwitter {
+        right: 130px;
+    }
+    #iconFB {
+        right: 90px;
+    }
+    #iconDC {
+        right: 50px;
+    }
+    #iconProfile {
+        right: 10px;
+    }
+}
+
+@media (max-width: 400px){
+    .header {
+        height: 50px;
+    }
+    #logo {
+        left: 5px;
+        top: 15px;
+        width: 100px;
+        height: 24px;
+    }
+    #headtext {
+        position: absolute;
+        top: 20px;
+        margin-left: 110px;
+    }
+    #textFAQ {
+        position: absolute;
+        top: 20px;
+        margin-left: 180px;
+    }
+    #styleCollection {
+        margin-left: 80px;
+    }
+    #styleFAQ {
+        margin-left: 160px;
+    }
+    #iconTwitter {
+        right: 100px;
+    }
+    #iconFB {
+        right: 70px;
+    }
+    #iconDC {
+        right: 40px;
+    }
+    #iconProfile {
+        right: 10px;
+    }
+}
