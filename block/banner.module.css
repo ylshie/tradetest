@@ -36,11 +36,12 @@
     width: 269px;
     height: 90px;
     text-align: center;
+    margin-top: 5px;
 }
 #styleBText {
     position: absolute;
-    left: 19.33%;
-    right: 19.33%;
+    left: 23%;
+    /* right: 19.33%; */
     top: 0%;
     bottom: 0%;
     font-family: Abril Fatface;
