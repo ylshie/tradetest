@@ -16,12 +16,12 @@ class Header extends React.Component {
                         />
                     </a>
                 </div>
-                <div id={styles.headtext}>
+                <div id={styles.textCol} className={styles.headText}>
                     <a href="/collection">
                     Collection
                     </a>
                 </div>
-                <div id={styles.textFAQ}>
+                <div id={styles.textFAQ} className={styles.headText}>
                     <a href="/faq">
                     FAQ
                     </a>  
@@ -53,6 +53,7 @@ class Header extends React.Component {
                         />
                     </a>
                 </div>
+                {/*
                 <div id={styles.iconProfile}>
                     <a>
                         <Image  src= {"/images/Profile.png"} // Route of the image file
@@ -62,6 +63,7 @@ class Header extends React.Component {
                         />
                     </a>
                 </div>
+                */}
             </div>
         );
     }

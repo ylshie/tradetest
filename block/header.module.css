@@ -21,17 +21,26 @@
     margin-left: 240px;
 }
 */
-#headtext {
+.headText {
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 200%;
+    text-align: justify;
+    color: #000000;
+}
+#textCol {
     position: absolute;
-    top: 25px;
-    margin-left: 240px;
+    top: 9px;
+    margin-left: 220px;
 }
 #textFAQ {
     position: absolute;
-    top: 25px;
-    margin-left: 320px;
+    top: 9px;
+    margin-left: 330px;
 }
-
+/*
 #styleCollection {
     margin-left: 100px;
 }
@@ -40,26 +49,26 @@
     margin-left: 200px;
     color: red;
 }
-
+*/
 #iconTwitter {
     position: absolute;
     top: 60%;
     transform: translateY(-50%);
-    right: 160px;
+    right: 110px; /*160px;*/
 }
 
 #iconFB {
     position: absolute;
     top: 60%;
     transform: translateY(-50%);
-    right: 110px;
+    right: 60px; /*110px;*/
 }
 
 #iconDC {
     position: absolute;
     top: 60%;
     transform: translateY(-50%);
-    right: 60px;
+    right: 10px; /*60px;*/
 }
 
 #iconProfile {
@@ -69,7 +78,7 @@
     right: 10px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
     .header {
         height: 60px;
     }
@@ -77,16 +86,16 @@
         width: 160px;
         height: 36px;
     }
-    #headtext {
+    #textCol {
         position: absolute;
-        top: 20px;
-        margin-left: 190px;
+        top: 7px;
+        margin-left: 185px;
     }
     #textFAQ {
         position: absolute;
-        top: 20px;
-        margin-left: 270px;
-    }
+        top: 7px;
+        margin-left: 300px;
+    } 
     #styleCollection {
         left: 90px;
     }
@@ -94,13 +103,13 @@
         left: 180px;
     }
     #iconTwitter {
-        right: 130px;
+        right: 90px; /*130px;*/
     }
     #iconFB {
-        right: 90px;
+        right: 50px; /*90px;*/
     }
     #iconDC {
-        right: 50px;
+        right: 10px; /*50px;*/
     }
     #iconProfile {
         right: 10px;
@@ -117,15 +126,19 @@
         width: 100px;
         height: 24px;
     }
-    #headtext {
+    .headText {
+        font-size: 16px;
+        line-height: 200%;
+    }
+    #textCol {
         position: absolute;
-        top: 20px;
+        top: 9px;
         margin-left: 110px;
     }
     #textFAQ {
         position: absolute;
-        top: 20px;
-        margin-left: 180px;
+        top: 9px;
+        margin-left: 185px;
     }
     #styleCollection {
         margin-left: 80px;
@@ -134,13 +147,13 @@
         margin-left: 160px;
     }
     #iconTwitter {
-        right: 100px;
+        right: 70px; /*100px;*/
     }
     #iconFB {
-        right: 70px;
+        right: 40px; /*70px;*/
     }
     #iconDC {
-        right: 40px;
+        right: 10px; /*40px;*/
     }
     #iconProfile {
         right: 10px;
