@@ -22,7 +22,8 @@ export default function pageFAQ() {
             <Head>
                 <title>FAQ</title>
             </Head>
-            <div class="backimage"></div>
+            <div className="backcolor"></div>
+            <div className="backimage"></div>
                 <Header/>
                 <div className={commstyles.TOUTitle}>
                 FAQ

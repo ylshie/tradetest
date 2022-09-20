@@ -159,21 +159,16 @@ class BannerBox extends React.Component {
     }
 }
 
-//import image1 from url("./images/不知火舞.png")
-//import image2 from url("./images/不知火舞2.png")
-
 export default function pageKOF() {    
     return (
         <>
             <Head>
                 <title>King of Fighter</title>
             </Head>
-            <div class="backimage"></div>
+            <div className="backcolor"></div>
+            <div className="backimage"></div>
             <Header/>
-            
-                <BannerBox></BannerBox>
-                
-            
+            <BannerBox></BannerBox>
             <div className={styles.Title}>
                 Invitaion to the TRADE3.0 contest
             </div>
@@ -239,7 +234,10 @@ export default function pageKOF() {
                 <div>
                     <div className={styles.project_title}>Space</div>
                     <div className={styles.project_detail}> (SecondLive Collaborative Project)</div>
-                    <div className={styles.project_box}>Comming Soon</div>
+                    <div className={styles.styleOverParent}>
+                        <div className={styles.textOverImage}>Comming Soon</div>
+                        <div className={styles.project_box}></div>    
+                    </div>
                     <div className={styles.project_subtitle}>copywrite</div>
                     <div className={styles.project_detail}>
                     Create an exclusive metaverse venue for TRADE3.0<br/>
@@ -249,7 +247,11 @@ export default function pageKOF() {
                 </div>
                 <div>
                     <div className={styles.project_title}>AR/VR</div>
-                    <div className={styles.project_box}>Comming Soon</div>
+                    <div className={styles.project_detail}>  .</div>
+                    <div className={styles.styleOverParent}>
+                        <div className={styles.project_box}></div>
+                        <div className={styles.textOverImage}>Comming Soon</div>
+                    </div>
                     <div className={styles.project_subtitle}>copywrite</div>
                     <div className={styles.project_detail}>
                     Show off your NFTs in exclusive venues<br/>
@@ -264,14 +266,16 @@ export default function pageKOF() {
             <div className={styles.project_group}>
                 <div>
                     <div className={styles.note_title}>copywrite</div>
-                    <div className={styles.project_detail}>
+                    <div className={styles.note_detail}>
                     TRADE3.0 holder 
                     Participate in subsequent rounds of lucky draws
                     </div>
                 </div>
                 <div>
                     <div className={styles.note_title}>NEW NFTs</div>
-                    <div className={styles.project_detail}>Own your own exclusive NFT props</div>
+                    <div className={styles.note_detail}>
+                    Own your own exclusive NFT props
+                    </div>
                 </div>
             </div>
             <Partner/>

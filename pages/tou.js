@@ -12,8 +12,8 @@ export default function pageTOU() {
             <Head>
                 <title>Term of Use</title>
             </Head>
-            
-            <div class="backimage"></div>
+            <div className="backcolor"></div>
+            <div className="backimage"></div>
             <Header/>
             <div className={styles.TOUTitle}>
             TERMS OF USE

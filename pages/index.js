@@ -23,8 +23,8 @@ export default function Trade3() {
         <Head>
             <title>Trade3</title>
         </Head>
-        
-        <div class="backimage"></div>
+        <div className="backcolor"></div>
+        <div className="backimage"></div>
         <Header/>
         <Banner/>
         <CommingSoon/>
