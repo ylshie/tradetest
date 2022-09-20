@@ -69,6 +69,8 @@
     background-color: white;
     max-width: 718px;
     margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .c_container {
     padding-left: 15px;
