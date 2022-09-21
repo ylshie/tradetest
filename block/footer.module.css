@@ -1,3 +1,19 @@
+#styleFootList a:link {
+    color: white;
+    text-decoration: none
+}
+#styleFootList a:visited {
+    color: white;
+    text-decoration: none
+}
+#styleFootList a:hover {
+    color: white;
+    text-decoration: none
+}
+#styleFootList a:active {
+    color: white;
+    text-decoration: none
+}
 .styleFooter {
     background: #DFBD9C;
     width: 100%;
