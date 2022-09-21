@@ -52,7 +52,15 @@ const mai = {
     name: "Mai Shiranui",
     detail: "Shiranui’s parents died when she was a child, and subsequently was raised by her grandfather. She fell in love with Andy, who also trained under her grandfather. She seduces her opponent with her sexy appearance before destroying them. She dresses conservatively in private and is good at illustration, cooking, playing the piano and tea ceremony.",
     special: "- Ninja Bee",
-    super: "- Super Ninja Bee<br\/>- Dance of the Phoenix<br\/>- Dance of the Water Bird<br\/>"
+    super: "- Super Ninja Bee<br\/>- Dance of the Phoenix<br\/>- Dance of the Water Bird<br\/>",
+    fighting: "SHIRANUI-RYUU NINJUTSU.",
+    birthday: "JANUARY 1",
+    height: "165cm",
+    weight: "48kg",
+    blood: "B",
+    dressing_official: "RED KUNOICHI DRESS WITH WHITE OUTLINES AND A WHITE SASH TIED AROUND THE WAIST.",
+    dressing_daily_1: "FASHION CASUAL OUTFIT",
+    dressing_daily_2: "VARIOUS (WHICH ANDY MIGHT INTERESTED)."
 }
 
 const iori = {
@@ -60,7 +68,15 @@ const iori = {
     name: "IORI YAGAMI",
     detail: "FIGHTING STYLE: YAGAMI STYLE OF ANCIENT MARTIAL ARTS + PURE INSTINCT.<br\>BIRTHDAY: MARCH 25<br/>HEIGHT: 182cm<br/>WEIGHT: 76kg<br/>",
     special: "- Ninja Bee",
-    super: "- Super Ninja Bee<br\/>- Dance of the Phoenix<br\/>- Dance of the Water Bird<br\/>"
+    super: "- Super Ninja Bee<br\/>- Dance of the Phoenix<br\/>- Dance of the Water Bird<br\/>",
+    fighting: "YAGAMI STYLE OF ANCIENT MARTIAL ARTS + PURE INSTINCT.",
+    birthday: "MARCH 25",
+    height: "182cm",
+    weight: "76kg",
+    blood: "O",
+    dressing_official: "LEATHER COAT OR JACKET AND SHIRT WITH DRESS PANTS",
+    dressing_daily_1: "TRADITIONAL ORIENTAL DRESS",
+    dressing_daily_2: "CASUAL SPORTSWARE."
 }
 
 class BannerBox extends React.Component {
@@ -69,20 +85,37 @@ class BannerBox extends React.Component {
         // Created ref
         this.c_image = React.createRef();
         this.c_name = React.createRef();
-        this.c_detail = React.createRef();
-        this.c_special = React.createRef();
-        this.c_super = React.createRef();
+        //this.c_detail = React.createRef();
+        //this.c_special = React.createRef();
+        //this.c_super = React.createRef();
+        this.c_fighting = React.createRef();
+        this.c_birthday = React.createRef();
+        this.c_height = React.createRef();
+        this.c_weight = React.createRef();
+        this.c_blood = React.createRef();
+        this.c_dressing_official = React.createRef();
+        this.c_dressing_daily_1 = React.createRef();
+        this.c_dressing_daily_2 = React.createRef();
         this.a_left = React.createRef();
         this.a_right = React.createRef();
+        
         this.onLeft = this.onLeft.bind(this);
         this.onRight = this.onRight.bind(this);
     }
     onLeft() {
         this.c_image.current.src = "/images/" + mai.image
         this.c_name.current.innerHTML = mai.name;
-        this.c_detail.current.innerHTML = mai.detail;
-        this.c_special.current.innerHTML = mai.special;
-        this.c_super.current.innerHTML = mai.super;
+        //this.c_detail.current.innerHTML = mai.detail;
+        //this.c_special.current.innerHTML = mai.special;
+        //this.c_super.current.innerHTML = mai.super;
+        this.c_fighting.current.innerHTML  = mai.fighting;
+        this.c_birthday.current.innerHTML  = mai.birthday;
+        this.c_height.current.innerHTML  = mai.height;
+        this.c_weight.current.innerHTML  = mai.weight;
+        this.c_blood.current.innerHTML  = mai.blood;
+        this.c_dressing_official.current.innerHTML  = mai.dressing_official;
+        this.c_dressing_daily_1.current.innerHTML  = mai.dressing_daily_1;
+        this.c_dressing_daily_2.current.innerHTML  = mai.dressing_daily_2;
         this.a_right.current.style.visibility = "visible";
         this.a_left.current.style.visibility = "hidden";
     }
@@ -91,9 +124,17 @@ class BannerBox extends React.Component {
         //alert(this.image_2)
         this.c_image.current.src = "/images/" + iori.image;
         this.c_name.current.innerHTML = iori.name;
-        this.c_detail.current.innerHTML = iori.detail;
-        this.c_special.current.innerHTML = iori.special;
-        this.c_super.current.innerHTML = iori.super;
+        //this.c_detail.current.innerHTML = iori.detail;
+        //this.c_special.current.innerHTML = iori.special;
+        //this.c_super.current.innerHTML = iori.super;
+        this.c_fighting.current.innerHTML  = iori.fighting;
+        this.c_birthday.current.innerHTML  = iori.birthday;
+        this.c_height.current.innerHTML  = iori.height;
+        this.c_weight.current.innerHTML  = iori.weight;
+        this.c_blood.current.innerHTML  = iori.blood;
+        this.c_dressing_official.current.innerHTML  = iori.dressing_official;
+        this.c_dressing_daily_1.current.innerHTML  = iori.dressing_daily_1;
+        this.c_dressing_daily_2.current.innerHTML  = iori.dressing_daily_2;
         this.a_left.current.style.visibility = "visible";
         this.a_right.current.style.visibility = "hidden";
     }
@@ -137,21 +178,83 @@ class BannerBox extends React.Component {
                     <div className={styles.Name} ref={this.c_name}>
                     {mai.name}
                     </div>
-                    <div className={styles.Detail} ref={this.c_detail}>
-                    {mai.detail}
+                    
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Fightig Style: 
+                        </span>
+                        <span className={styles.Detail2} ref={this.c_fighting}>
+                        {mai.fighting}
+                        </span>
                     </div>
-                    <br/>
-                    <div className={styles.SubTitle}>
-                    Special move: 
+                    
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Birthday: 
+                        </span>
+                        <span className={styles.Detail2} ref={this.c_birthday}>
+                        {mai.birthday}
+                        </span>
                     </div>
-                    <div className={styles.Detail} ref={this.c_special}>
-                    {mai.special}
+
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Height: 
+                        </span>
+                        <span className={styles.Detail2} ref={this.c_height}>
+                        {mai.height}
+                        </span>
                     </div>
-                    <div className={styles.SubTitle}>
-                    Super Special move: 
+
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Weight: 
+                        </span>
+                        <span className={styles.Detail2} ref={this.c_weight}>
+                        {mai.weight}
+                        </span>
                     </div>
-                    <div className={styles.Detail} ref={this.c_super}>
-                    {mai.super}
+
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Blood Type: 
+                        </span>
+                        <span className={styles.Detail2} ref={this.c_blood}>
+                        {mai.blood}
+                        </span>
+                    </div>
+
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Dressig Style
+                        </span>
+                    </div>
+                    
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Offical: 
+                        </span>
+                        <span className={styles.Detail2} ref={this.c_dressing_official}>
+                        {mai.dressing_official}
+                        </span>
+                    </div>
+
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Daily 1: 
+                        </span>
+                        <span className={styles.Detail2} ref={this.c_dressing_daily_1}>
+                        {mai.dressing_daily_1}
+                        </span>
+                    </div>
+
+                    <div>
+                        <span className={styles.SubTitle2}>
+                        Daily 2: 
+                        </span>
+                        <span className={styles.Detail2} ref={this.c_dressing_daily_2}>
+                        {mai.dressing_daily_2}
+                        </span>
                     </div>
                 </Intro>
             </IntroBox>

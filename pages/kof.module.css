@@ -146,6 +146,16 @@
     text-transform: uppercase;
     color: #000000;
 }
+.SubTitle2 {
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #000000;
+}
 .Title3 {
     font-family: 'Aoboshi One';
     font-style: normal;
@@ -172,6 +182,16 @@
     line-height: 160%;
     text-align: justify;
     color: #000000;
+}
+.Detail2 {
+    margin-left: 10px;
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 173%;
+    text-align: justify;
+    color: #C47228;
 }
 
 .Person {
