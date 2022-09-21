@@ -24,7 +24,7 @@ export default function Trade3() {
             <title>Trade3</title>
         </Head>
         <div className="backcolor">
-          <div className="backimage">
+          <div className="backimage"></div>
             <Header/>
             <Banner/>
             <CommingSoon/>
@@ -33,7 +33,6 @@ export default function Trade3() {
             <Community/>
             <Partner/>
             <Footer/>
-          </div>
         </div>
     </>
   );

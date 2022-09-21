@@ -13,7 +13,7 @@ export default function pageTOU() {
                 <title>Term of Use</title>
             </Head>
             <div className="backcolor">
-            <div className="backimage">
+            <div className="backimage"></div>
             <Header/>
             <div className={styles.TOUTitle}>
             TERMS OF USE
@@ -77,7 +77,6 @@ export default function pageTOU() {
             </div>
             <Partner/>
             <Footer/>
-            </div>
             </div>
         </>
     )
