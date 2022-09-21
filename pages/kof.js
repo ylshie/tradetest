@@ -165,8 +165,8 @@ export default function pageKOF() {
             <Head>
                 <title>King of Fighter</title>
             </Head>
-            <div className="backcolor"></div>
-            <div className="backimage"></div>
+            <div className="backcolor">
+            <div className="backimage">
             <Header/>
             <BannerBox></BannerBox>
             <div className={styles.Title}>
@@ -280,6 +280,8 @@ export default function pageKOF() {
             </div>
             <Partner/>
             <Footer/>
+            </div>
+            </div>
         </>
     )
 }

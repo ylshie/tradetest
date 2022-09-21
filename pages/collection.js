@@ -21,33 +21,35 @@ export default function pageCollection() {
             <Head>
                 <title>Collectionn</title>
             </Head>
-            <div className="backcolor"></div>
-            <div className="backimage"></div>
-            <Header/>
-            <div className={styles.outbox}>
-                <div className={styles.box}>
-                    <div className={styles.image}>{MyBan("c_2022-08-03_20.19.png")}</div>
-                    <div className={styles.textbox}>
-                        <div className={styles.title}>YAGAMI  SHIRANUI</div>
-                    </div>   
-                </div>
-                <div className={styles.box}>
-                    <div className={styles.image}>{MyBan("c_1662975886567.png")}</div>
-                    <div className={styles.textbox}>
-                        <div className={styles.title}>CYBER DINOSAUR</div>
-                        <div className={styles.subtitle}>Coming Soon</div>
-                    </div>       
-                </div>
-                <div className={styles.box}>
-                    <div className={styles.image}>{MyBan("c_jamojaya.png")}</div>
-                    <div className={styles.textbox}>
-                        <div className={styles.title}>JAMOJAYA</div>
-                        <div className={styles.subtitle}>Coming Soon</div>
-                    </div>                    
+            <div className="backcolor">
+                <div className="backimage">
+                    <Header/>
+                    <div className={styles.outbox}>
+                        <div className={styles.box}>
+                            <div className={styles.image}>{MyBan("c_2022-08-03_20.19.png")}</div>
+                            <div className={styles.textbox}>
+                                <div className={styles.title}>YAGAMI  SHIRANUI</div>
+                            </div>   
+                        </div>
+                        <div className={styles.box}>
+                            <div className={styles.image}>{MyBan("c_1662975886567.png")}</div>
+                            <div className={styles.textbox}>
+                                <div className={styles.title}>CYBER DINOSAUR</div>
+                                <div className={styles.subtitle}>Coming Soon</div>
+                            </div>       
+                        </div>
+                        <div className={styles.box}>
+                            <div className={styles.image}>{MyBan("c_jamojaya.png")}</div>
+                            <div className={styles.textbox}>
+                                <div className={styles.title}>JAMOJAYA</div>
+                                <div className={styles.subtitle}>Coming Soon</div>
+                            </div>                    
+                        </div>
+                    </div>
+                    <Partner/>
+                    <Footer/>
                 </div>
             </div>
-            <Partner/>
-            <Footer/>
         </>
     )
 }

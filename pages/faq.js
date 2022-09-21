@@ -22,8 +22,8 @@ export default function pageFAQ() {
             <Head>
                 <title>FAQ</title>
             </Head>
-            <div className="backcolor"></div>
-            <div className="backimage"></div>
+            <div className="backcolor">
+            <div className="backimage">
                 <Header/>
                 <div className={commstyles.TOUTitle}>
                 FAQ
@@ -202,6 +202,8 @@ export default function pageFAQ() {
                 </div>
                 <Partner/>
                 <Footer/>
+                </div>
+                </div>
         </>
     )
 }

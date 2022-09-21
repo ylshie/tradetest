@@ -12,8 +12,8 @@ export default function pagePrivacy() {
             <Head>
                 <title>Privacy policy</title>
             </Head>
-            <div className="backcolor"></div>
-            <div className="backimage"></div>
+            <div className="backcolor">
+            <div className="backimage">
             <Header/>
             <div className={styles.TOUTitle}>
             Privacy policy
@@ -69,6 +69,8 @@ export default function pagePrivacy() {
             </div>
             <Partner/>
             <Footer/>
+            </div>
+            </div>
         </>
     )
 }
