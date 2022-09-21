@@ -43,7 +43,7 @@
     text-align: justify;
     color: #000000;
     margin-top: 9px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 .iconbox {
     position: absolute;
@@ -52,7 +52,7 @@
     right: 10px; /*160px;*/
 }
 .icon {
-    margin-right: 15px;
+    margin-right: 40px;
 }
 /*
 #iconTwitter {
@@ -95,23 +95,21 @@
         top: 7px;
         left: 175px;
     }
+    .headText {
+        margin-left: 20px;
+    }
+    .icon {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .headText {
+        margin-left: 10px;
+    }
     .icon {
         margin-right: 10px;
     }
-    /*
-    #iconTwitter {
-        right: 90px; 
-    }
-    #iconFB {
-        right: 50px; 
-    }
-    #iconDC {
-        right: 10px; 
-    }
-    #iconProfile {
-        right: 15px;
-    }
-    */
 }
 
 @media (max-width: 400px){

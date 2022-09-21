@@ -1,7 +1,17 @@
+.styleOverParent {
+    position: relative;
+}
+.styleOver {
+    position: absolute;
+    z-index: -1;
+}
 #styleDetail  {
     width:  599px;
-    height: 48px;
-    font-family: Abril Fatface;
+    /* height: 48px; */
+    margin-top: 53px;
+    margin-bottom: 53px;
+    /* FONT */
+    font-family: 'Abril Fatface';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -11,8 +21,8 @@
 }
 #styleShaodeTitle  {
     width: 620px;
-    height: 90px;
-    font-family: Abril Fatface;
+    /*height: 90px;*/
+    font-family: 'Abril Fatface';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -44,7 +54,7 @@
     /* right: 19.33%; */
     top: 0%;
     bottom: 0%;
-    font-family: Abril Fatface;
+    font-family: 'Abril Fatface';
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
@@ -66,44 +76,60 @@
     border-radius: 50px;
 }
 .block_container {
+    position: relative;
     background-color: white;
-    max-width: 718px;
+    /*max-width: 718px;*/
+    height: 623px;
     margin: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 20px;
+}
+.over_image {
+    position: absolute;
+    top: 1px;
+    left: 92px;
 }
 .c_container {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    
+    position: absolute;
+    top: 550px;
+    width: 701px;
+    background-color: white;
+    opacity: 0.5;
+  
     font-family: 'Aoboshi One';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 200%;
     /* identical to box height, or 50px */
-
-    text-align: justify;
-
+    text-align: center;
     color: #000000;
 }
 
 @media (max-width: 400px){
+    .over_image {
+        position: absolute;
+        top: 0px;
+        left: 52px;
+    }
     #styleShaodeTitle  {
         width: 340px;
-        height: 90px;
+    /*    height: 90px; */
         font-size: 32px;
     }
     #styleDetail  {
         width:  340px;
-        height: 48px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    /*    height: 48px; */
     }
     .block_container {
         width: 340px;
+        height: 300px;
         margin-left: 20px;
     }
     .c_container {
+        top: 250px;
+        width: 330px;
         padding-left: 5px;
         padding-right: 5px;
         padding-bottom: 5px;

@@ -256,6 +256,9 @@ class BannerBox extends React.Component {
                         {mai.dressing_daily_2}
                         </span>
                     </div>
+                    <div id={styles.snk}>
+                    © SNK CORPORATION ALL RIGHTS RESERVED.
+                    </div>
                 </Intro>
             </IntroBox>
           );
@@ -352,27 +355,49 @@ export default function pageKOF() {
                     <div className={styles.project_title}>Space</div>
                     <div className={styles.project_detail}> (SecondLive Collaborative Project)</div>
                     <div className={styles.styleOverParent}>
-                        <div className={styles.textOverImage}>Comming Soon</div>
-                        <div className={styles.project_box}></div>    
+                        <div className={styles.video_box}>
+                            <video  loop controls muted 
+                                    src="./videos/kof-Intro.mp4" 
+                                    poster="./images/poster01.png" 
+                                    width="340">您当前浏览器不支持HTMT5视频播放
+                            </video>
+                        </div>
+                    {/*
+                    <div className={styles.textOverImage}>Comming Soon</div>
+                    <div className={styles.project_box}></div> 
+                    */}   
                     </div>
                     <div className={styles.project_subtitle}>copywrite</div>
                     <div className={styles.project_detail}>
-                    Create an exclusive metaverse venue for TRADE3.0<br/>
+                    "THE KING OF FIGHTERS ‘98UM" and "SAMURAI SHODOWN<br/>
+                     IV AMAKUSA‘S REVENGE" charater NFT collection exhibition
+                    {/*Create an exclusive metaverse venue for TRADE3.0<br/>
                     You can display your own NFTs at the Metaverse Arena<br/>
-                    Community members can participate in the layout together<br/>
+                    Community members can participate in the layout together<br/>*/}
                     </div>
                 </div>
                 <div>
                     <div className={styles.project_title}>AR/VR</div>
                     <div className={styles.project_detail}>  .</div>
                     <div className={styles.styleOverParent}>
+                        <div className={styles.video_box}>
+                            <video  loop controls muted 
+                                    src="./videos/400X200.mp4" 
+                                    poster="./images/poster01.png" 
+                                    width="340">您当前浏览器不支持HTMT5视频播放
+                            </video>
+                        </div>
+                        {/*
                         <div className={styles.project_box}></div>
                         <div className={styles.textOverImage}>Comming Soon</div>
+                        */}
                     </div>
                     <div className={styles.project_subtitle}>copywrite</div>
                     <div className={styles.project_detail}>
-                    Show off your NFTs in exclusive venues<br/>
-                    Community Contributors Will Provide Steam Grants<br/>
+                    Trade3.0 create a realistic piece, complete with <br/>
+                    additional visuals, sounds, and many other virtual effects.
+                    {/*Show off your NFTs in exclusive venues<br/>
+                    Community Contributors Will Provide Steam Grants<br/>*/}
                     </div>
                 </div>
             </div>
