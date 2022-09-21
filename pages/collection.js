@@ -19,7 +19,7 @@ export default function pageCollection() {
     return (
         <>
             <Head>
-                <title>Collectionn</title>
+                <title>Collection | Trade3</title>
             </Head>
             <div className="backcolor">
                 <div className="backimage"></div>

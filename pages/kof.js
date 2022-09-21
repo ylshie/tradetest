@@ -163,7 +163,7 @@ export default function pageKOF() {
     return (
         <>
             <Head>
-                <title>King of Fighter</title>
+                <title>King of Fighter | Trade3</title>
             </Head>
             <div className="backcolor">
             <div className="backimage"></div>
@@ -228,6 +228,20 @@ export default function pageKOF() {
                         width={341} // Desired size with correct aspect ratio
                         alt="Your Name"
                     />
+                </div>
+                <div id={styles.char_title}>
+                KOF'98 UM FE
+                </div>
+                <div id={styles.char_subtitle}>
+                Realize the ultimate evolution
+                </div>
+                <div id={styles.char_detail}>
+                "THE KING OF FIGHTERS "98 ULTIMATE MATCH FINAL EDITION" is a fully reworked version of the popular game "KOF '98" in the King of Fighters series, and it is finally available on PlayStation 4! 
+                <br/>
+                <br/>
+                Based on "KOF '98", it is equipped with a new "ULTIMATE MODE" system and game balance adjustments unique to "ULTIMATE MATCH". In addition, various game modes such as "CHALLENGE MODE" and "PRACTICE MODE" have been added!
+                <br/>
+                <br/>
                 </div>
             </div>
             <div className={styles.project_group}>

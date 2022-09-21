@@ -62,6 +62,51 @@
     top: 38px;
     left: 416px;
 }
+#char_subtitle {
+    position: absolute;
+    left: 315px;
+    top: 398px;
+    /*width: 214px;
+    height: 16px;*/
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#char_title {
+    position: absolute;
+    left: 215px;
+    top: 412px;
+    /*width: 431px;
+    height: 87px;*/
+    /* FONT */
+    font-family: 'Aoboshi One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 87px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(224, 171, 122, 0.93);
+}
+#char_detail {
+    position: absolute;
+    left: 106px;
+    top: 522px;
+    width: 681px;
+    height: 114px;
+    /* FONT */
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+}
 .Intro {
     /*position: absolute;
     top: 10px;
@@ -285,6 +330,7 @@
     .item_box {
         padding-left: 0px;
         margin: 10px;
+        width: 300px;
     }
     .IntroBox {
         margin-top: 0px;
@@ -316,13 +362,30 @@
     .Intro {
         width: 300px;
         height: 430px;
-        
+        margin-left: 3px;
     }
     #AvailableBox {
         position: relative;
         width: 360px;
         height: 360px;
         left: 0px;
+    }
+    #char_subtitle {
+        left: 100px; /*315px;*/
+        top: 150px; /*398px;*/
+        font-size: 10px;
+    }
+    #char_title {
+        left: 45px;
+        top: 150px;
+        font-size: 40px;
+    }
+    #char_detail {
+        left: 10px;
+        top: 220px;
+        width: 340px;
+        height: 114px;
+        font-size: 10px;
     }
     .Title {
         font-size: 30px;

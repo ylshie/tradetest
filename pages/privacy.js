@@ -10,7 +10,7 @@ export default function pagePrivacy() {
     return (
         <>
             <Head>
-                <title>Privacy policy</title>
+                <title>Privacy policy | Trade3</title>
             </Head>
             <div className="backcolor">
             <div className="backimage"></div>

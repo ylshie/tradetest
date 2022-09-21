@@ -10,7 +10,7 @@ export default function pageTOU() {
     return (
         <>
             <Head>
-                <title>Term of Use</title>
+                <title>Term of Use | Trade3</title>
             </Head>
             <div className="backcolor">
             <div className="backimage"></div>
