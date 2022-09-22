@@ -24,19 +24,19 @@ export default function pageFAQ() {
             </Head>
             <div className="backcolor">
             <div className="backimage"></div>
-                <Header/>
-                <div className={commstyles.TOUTitle}>
-                FAQ
-                </div>
-                <div className={commstyles.TOUSubTitle}>
-                WHAT IS Trade3.0?
-                </div>
-                <div className={commstyles.TOUDetail}>
-                Trade3.0 is the first NFT Launchpad platform to focus on combining insurance, trading and utility. Trade3.0 combined with ERC20 technology to support stable currency transactions, our technical team develops a legal currency transaction module at the same time for everyone to participate in "trade" and enjoy "Web3".
-                </div>
-                <div className={commstyles.TOUSubTitle}>
-                HOW DO I JOIN Trade3.0?
-                </div>
+            <Header/>
+            <div className={commstyles.TOUTitle}>
+            FAQ
+            </div>
+            <div className={commstyles.TOUSubTitle}>
+            WHAT IS Trade3.0?
+            </div>
+            <div className={commstyles.TOUDetail}>
+            Trade3.0 is the first NFT Launchpad platform to focus on combining issurance, trading and utility. Trade3.0 combined with ERC20 technology to support stable currency transactions, our technical team develops a legal currency transaction module at the same time for everyone to participate in "trade" and enjoy "Web3".
+            </div>
+            <div className={commstyles.TOUSubTitle}>
+            HOW DO I JOIN Trade3.0?
+            </div>
                 <div className={styles.step_group}>
                     <div className={styles.step_box}>
                         <div className={styles.step_title}>
@@ -75,7 +75,7 @@ export default function pageFAQ() {
                 NON-FUNGIBLE TOKEN? WHAT DOES THAT MEAN?
                 </div>
                 <div className={commstyles.TOUDetail}>
-                NFT(NON-FUNGIBLE TOKEN）is a Web3.0 application. Compared to Fungible Token, every NFT performs differently, and they cannot be replaced or separated from each other. Like any form of pictures, music, videos, even the 3D model works and any type of file structure, because of the technical support of blockchain, it will be difficult to distort and copy easily after the link has been established.
+                NFT(NON-FUNGIBLE TOKEN）is a Web3.0 application. Compared to Fungible Token, every NFT performs differently, and they cannot be replaced or separated from each other. Like any form of pictures, music, videos, even the 3D model works and any type of file structure, because of the technical support of blockchain, it will be difficult to distort and copy after the link has been established.
                 </div>
                 <div className={commstyles.TOUSubTitle}>
                 WHAT KIND OF PAYMENT METHOD IS ALLOWED IN Trade3.0?
@@ -113,7 +113,7 @@ export default function pageFAQ() {
                     </div>
                     <div className={styles.mint_box}>
                         <Bullet>5</Bullet>
-                        <div>Comfirm with Wallet</div>
+                        <div>Comfirm with the Wallet</div>
                     </div>
                     <div className={styles.mint_box}>
                         <Bullet>6</Bullet>
@@ -124,7 +124,15 @@ export default function pageFAQ() {
                 HOW DO I ADJUST GAS IN WALLET?
                 </div>
                 <div className={commstyles.TOUDetail}>
-                We use Metamask for example.
+                We use Metamask for example.<br/>
+                Extension:<br/>
+                Click on your account icon, then find 'Advanced gas controls' under 'Advanced' in the settings menu.<br/>
+                Once you've flicked this switch, the option to 'Edit' gas will appear when sending a transaction<br/>
+                Clicking on 'edit' should allow you to modify the three applicable fields as follows.<br/>
+                Mobile:<br/>
+                MetaMask Mobile is already has the ability to precisely configure gas built-in; you do not need to enable it in settings.<br/>
+                When you get to the final screen before sending your transaction, you will see an "Estimated gas fee". To the right, the fee will appear underlined in blue<br/>
+                Click on the fee, and a menu will appear with a slider, and another option to click on "Advanced Options". When you do, this menu will open and you will have the opportunity to customize your gas fully.<br/>
                 </div>
                 <div className={commstyles.TOUSubTitle}>
                 ARE THERE PLATFORM FEES?
@@ -136,7 +144,7 @@ export default function pageFAQ() {
                 CAN I GET A REFUND ON NFT?
                 </div>
                 <div className={commstyles.TOUDetail}>
-                Per our Terms of Use, we do not issue any refunds for NFTs. There is no exception to this rule at the moment, including common requests such as accidental purchases, secondary market fluctuation, or discontent about edition numbers.
+                According to our Terms of Use, we do not issue any refunds for NFTs. There is no exception to this rule at the moment, including common requests such as accidental purchases, secondary market fluctuation, or discontent about edition numbers.
                 </div>
                 <div className={commstyles.TOUSubTitle}>
                 HOW CAN I STAY SAFE FROM SCAMS?
@@ -172,7 +180,7 @@ export default function pageFAQ() {
                 <br/>
                 Turn off direct messages from strangers.
                 <br/>
-                Do not click links from untrusted sources. If someone is sharing something with you, we highly recommend using a little Google to find it yourself. Bad actors can create persuasive phishing websites.
+                Do not click links from untrusted sources. If someone is sharing something with you, we highly recommend using a little Google to find it yourself. Frauds can create persuasive phishing websites.
                 <br/>
                 <br/>
                 Trust-Based Trades
@@ -184,7 +192,7 @@ export default function pageFAQ() {
                 <br/>
                 To avoid being the victim during a trade, we recommend NEVER sending a piece and expecting to get something in return. Instead, use a swapping website. Use Common Sense
                 <br/>
-                The best line of defense against online scams is to use common sense and assume anyone reaching out privately has ulterior motives. Of course, con artists will evolve their tactics, but approaching every online interaction with skepticism will reduce your exposure to being compromised. And remember: if it sounds too good to be true, it probably is.
+                The best way of defense against online scams is to use common sense and assume anyone reaching out privately has ulterior motives. Of course, con artists will evolve their tactics, but approaching every online interaction with skepticism will reduce your exposure to being compromised. And remember: if it sounds too good to be true, it probably is.
                 </div>
                 <div className={commstyles.TOUSubTitle}>
                 HOW TO BE A Trade3.0 CREATOR?

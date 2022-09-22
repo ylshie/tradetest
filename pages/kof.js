@@ -276,7 +276,32 @@ export default function pageKOF() {
             <Header/>
             <BannerBox></BannerBox>
             <div className={styles.Title}>
-                Invitaion to the TRADE3.0 contest
+                Invitation to the TRADE3.0 contest
+            </div>
+            <div className={styles.invitation_group}>
+                <div className={styles.invitation_box}>
+                    <div className={styles.inviaition_title}>
+                    Still remember the invitation?
+                    </div>
+                    <div className={styles.inviaition_detail}>
+                        <ul>
+                            <li>That period of time, whether it was youthful, brilliant or beautiful</li>
+                            <li>That moment after the coin is inserted</li>                    
+                        </ul>
+                    </div>
+                </div>
+                <div className={styles.invitation_box}>
+                    <div className={styles.inviaition_title}>
+                    And now, after a long silence
+                    </div>
+                    <div className={styles.inviaition_detail}>
+                        <ul>
+                            <li>Web3 will be making waves once again!</li>
+                            <li>Trade3.0 will be working in various ways</li>
+                            <li>To reignite the King of Fighters spirit!</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div className={styles.Title2}>
             Let’s fight!!
@@ -298,7 +323,7 @@ export default function pageKOF() {
                     COMMUNITY
                     </div>
                     <div className={styles.item_detail}>
-                    Life Fighter Story Sharing derivative work/Textures/Memes Memory Sharing (80s and 90s)
+                    Life Fighter Story Sharing derivative work / Textures / Memes Memory Sharing (80s and 90s)
                     </div>
                 </div>
                 <div className={styles.item_box}>
@@ -313,7 +338,7 @@ export default function pageKOF() {
                     <div className={styles.item_title}>
                     AIRDROP<br/>KOF 98 UMFE
                     </div>
-                    <div className={styles.item_detail}>
+                    <div id={styles.item_airdrop} className={styles.item_detail}>
                     The limited edition Holder will receive a free airdrop of the game "KOF '98 UM FE" on the PlayStation 4 platform.    
                     </div>
                 </div>

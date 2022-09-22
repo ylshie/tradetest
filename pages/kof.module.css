@@ -228,6 +228,7 @@
 .item_box {
     background: rgba(224, 171, 122, 0.46);
     border-radius: 8px;
+    width: 200px;
     padding: 20px;
     margin: 20px;
 }
@@ -253,6 +254,37 @@
     color: #FFFFFF;
     margin-top: 50px;
     margin-left: 20px;
+}
+#item_airdrop {
+    margin-top: 10px;
+}
+.invitation_group {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.invitation_box {
+    margin-top: 10px;
+}
+.inviaition_title {
+    padding-left: 25px;
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(224, 171, 122, 0.93);
+}
+.inviaition_detail {
+    font-family: 'DIN Alternate';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 173%;
+    color: rgba(224, 171, 122, 0.93);
 }
 .item_group {
     display: grid;
@@ -364,6 +396,9 @@
 }
 
 @media (max-width: 400px){
+    .invitation_group {
+        grid-template-columns: auto;
+    }
     .item_box {
         padding-left: 0px;
         margin: 10px;

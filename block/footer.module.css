@@ -53,6 +53,9 @@
 }
 
 @media (max-width: 400px){
+    .foottext {
+        margin-bottom: 2px;
+    }
     .styleFooter {
         height: 140px;
     }
@@ -67,7 +70,7 @@
     }
     #styleFootList {
         margin-left: 160px;
-        margin-top: 10px;
+        margin-top: 6px;
         font-size: 16px;
     }
 }
