@@ -52,7 +52,14 @@ class Banner extends React.Component {
                 </div>
                 <Block>
                     <a href="/kof">
-                        { MyBan("shutterstock_1549052903.png")}
+                        <div className={styles.back_image}>
+                            <Image
+                                src= {"/images/shutterstock_1549052903.png"} // Route of the image file
+                                height={623} // Desired size with correct aspect ratio
+                                width={701} // Desired size with correct aspect ratio
+                                alt="Your Name"
+                            />
+                        </div>
                         <div className={styles.over_image}>
                             <Image
                                 src= {"/images/snk-removebg-preview.png"} // Route of the image file

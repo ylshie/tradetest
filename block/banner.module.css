@@ -79,19 +79,30 @@
     position: relative;
     background-color: white;
     /*max-width: 718px;*/
-    height: 623px;
-    margin: 0px;
+    /*height: 623px;*/
+    margin: 20px;
     border-radius: 20px;
 }
+.back_image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 .over_image {
+    /*
     position: absolute;
     top: 1px;
     left: 92px;
+    */
+    width: 70%;
+    margin: auto;
 }
 .c_container {
-    position: absolute;
-    top: 550px;
-    width: 701px;
+    /*position: absolute;*/
+    /*top: 550px;
+    /*width: 701px;*/
+    top: 80%;
+    width: 100%;
     background-color: white;
     opacity: 0.5;
   

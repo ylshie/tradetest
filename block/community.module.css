@@ -2,10 +2,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.styleOverParent {
+    position: relative;
+}
 .video_box {
-    /*background: rgba(0, 0, 0, 0.5);*/
-    width: 450px;
-    /*height: 247px;*/
+    width: 100%;
     text-align: center;
     margin-bottom: 20px;
 }
