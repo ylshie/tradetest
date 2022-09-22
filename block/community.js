@@ -11,9 +11,9 @@ class Community extends React.Component {
                     <div className={styles.video_box}>
                         <div className={styles.center_box}>
                             <video  loop controls muted 
-                                    src="./videos/Sequence_01.mp4" 
+                                    src="./videos/sequence_01.mp4" 
                                     poster="./images/poster01.png" 
-                                    width="340">您当前浏览器不支持HTMT5视频播放
+                                    width="100%">
                             </video>
                         </div>      
                     </div>
@@ -35,9 +35,9 @@ class Community extends React.Component {
                 <div id={styles.styleCommunity}>
                     <div className={styles.video_box}>
                         <video  loop controls muted 
-                                src="./videos/Sequence_02.mp4" 
+                                src="./videos/sequence_02.mp4" 
                                 poster="./images/poster01.png" 
-                                width="340">您当前浏览器不支持HTMT5视频播放
+                                width="100%">
                         </video>
                     </div>
                     {/*<div id={styles.styleCommImage}>
