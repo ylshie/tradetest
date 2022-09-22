@@ -25,12 +25,14 @@ export default function pageCollection() {
                 <div className="backimage"></div>
                 <Header/>
                 <div className={styles.outbox}>
-                    <div className={styles.box}>
-                        <div className={styles.image}>{MyBan("c_2022-08-03_20.19.png")}</div>
-                        <div className={styles.textbox}>
-                            <div className={styles.title}>YAGAMI  SHIRANUI</div>
-                        </div>   
-                    </div>
+                    <a href="/kof">
+                        <div className={styles.box}>
+                            <div className={styles.image}>{MyBan("c_2022-08-03_20.19.png")}</div>
+                            <div className={styles.textbox}>
+                                <div className={styles.title}>YAGAMI  SHIRANUI</div>
+                            </div>   
+                        </div>
+                    </a>
                     <div className={styles.box}>
                         <div className={styles.image}>{MyBan("c_1662975886567.png")}</div>
                         <div className={styles.textbox}>

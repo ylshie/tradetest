@@ -36,12 +36,12 @@ sidebar {
   height: 100%;
   /*height: auto; /* 4500px; */
   z-index: -1;
+  /*
   background: conic-gradient(from 231.87deg at 75.64% 15.06%, rgba(58, 96, 112, 0) -37.5deg, #666666 71.25deg, rgba(50, 90, 107, 0.265625) 193.12deg, rgba(58, 96, 112, 0) 322.5deg, #676767 431.25deg);
   filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
-  /*
+  */
   background: conic-gradient(from 231.87deg at 75.64% 15.06%, rgba(58, 96, 112, 0) -37.5deg, #DEDEDE 71.25deg, rgba(50, 90, 107, 0.265625) 193.12deg, rgba(58, 96, 112, 0) 322.5deg, #DEDEDE 431.25deg);
   filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
-  */
 }
 
 @import url('https://static.figma.com/webfont/1/Inter-Regular.woff2?v=3.10');
