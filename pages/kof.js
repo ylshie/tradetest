@@ -359,7 +359,7 @@ export default function pageKOF() {
                             <video  loop controls muted 
                                     src="./videos/kof-Intro.mp4" 
                                     poster="./images/poster01.png" 
-                                    width="340">您当前浏览器不支持HTMT5视频播放
+                                    width="100%">
                             </video>
                         </div>
                     {/*
@@ -384,7 +384,7 @@ export default function pageKOF() {
                             <video  loop controls muted 
                                     src="./videos/400X200.mp4" 
                                     poster="./images/poster01.png" 
-                                    width="340">您当前浏览器不支持HTMT5视频播放
+                                    width="100%">
                             </video>
                         </div>
                         {/*
