@@ -12,7 +12,6 @@ class Community extends React.Component {
                         <div className={styles.video_box}>
                             <video  loop controls muted 
                                     src="./videos/sequence_01.mp4" 
-                                    poster="./images/poster01.png" 
                                     width="100%">
                             </video>
                         </div>
@@ -36,7 +35,6 @@ class Community extends React.Component {
                     <div className={styles.video_box}>
                         <video  loop controls muted 
                                 src="./videos/sequence_02.mp4" 
-                                poster="./images/poster01.png" 
                                 width="100%">
                         </video>
                     </div>

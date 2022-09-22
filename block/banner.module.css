@@ -30,6 +30,7 @@
     text-align: center;
     color: #000000;
     text-shadow: 0px 8px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
 }
 #styleSlogan {
     vertical-align: center;
@@ -96,12 +97,12 @@
     top: 80%;
     width: 100%;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.8;
   
     font-family: 'Aoboshi One';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 200%;
     /* identical to box height, or 50px */
     text-align: center;

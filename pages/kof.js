@@ -350,7 +350,7 @@ export default function pageKOF() {
                 <br/>
                 </div>
             </div>
-            <div className={styles.project_group}>
+            <div className={styles.project_group} id={styles.video_box_group}>
                 <div>
                     <div className={styles.project_title}>Space</div>
                     <div className={styles.project_detail}> (SecondLive Collaborative Project)</div>
@@ -358,7 +358,6 @@ export default function pageKOF() {
                         <div className={styles.video_box}>
                             <video  loop controls muted 
                                     src="./videos/kof-Intro.mp4" 
-                                    poster="./images/poster01.png" 
                                     width="100%">
                             </video>
                         </div>
@@ -383,7 +382,6 @@ export default function pageKOF() {
                         <div className={styles.video_box}>
                             <video  loop controls muted 
                                     src="./videos/400X200.mp4" 
-                                    poster="./images/poster01.png" 
                                     width="100%">
                             </video>
                         </div>
@@ -401,6 +399,7 @@ export default function pageKOF() {
                     </div>
                 </div>
             </div>
+            {/*}
             <div className={styles.Title2}>
             prepare for <br/>
             a wave of airdrops!<br/>
@@ -420,6 +419,7 @@ export default function pageKOF() {
                     </div>
                 </div>
             </div>
+            */}
             <Partner/>
             <Footer/>
             </div>

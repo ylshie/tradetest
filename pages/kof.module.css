@@ -38,6 +38,9 @@
     text-align: center;
     margin-bottom: 20px;
 }
+#video_box_group {
+    margin-bottom: 50px;
+}
 .IntroBox {
     display: grid;
     grid-template-columns: auto;

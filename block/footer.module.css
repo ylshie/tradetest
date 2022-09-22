@@ -30,7 +30,7 @@
 #styleFootList {
     position: absolute;
     margin-left: 300px;
-    margin-top: 65px;
+    margin-top: 46px;
     font-family: ABeeZee;
     font-style: normal;
     font-weight: 400;
@@ -39,7 +39,9 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
+.foottext {
+    margin-bottom: 12px;
+}
 @media (max-width: 600px){
     #styleFootIcon {
         margin-left: 30px;        
