@@ -20,6 +20,7 @@
     line-height: 29px;
     text-align: center;
     color: rgba(224, 171, 122, 0.93);
+    text-shadow: 1px 1px #444;
 }
 
 .TOUDetail {

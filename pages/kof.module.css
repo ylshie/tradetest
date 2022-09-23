@@ -108,6 +108,7 @@
     text-align: center;
     text-transform: uppercase;
     color: rgba(224, 171, 122, 0.93);
+    text-shadow: 1px 1px #444;
 }
 #char_detail {
     position: absolute;
@@ -153,6 +154,7 @@
     text-align: center;
     text-transform: uppercase;
     color: rgba(224, 171, 122, 0.93);
+    text-shadow: 1px 1px #444;
 }
 .SubTitle {
     font-family: 'DIN';
@@ -190,6 +192,7 @@
     line-height: 87px;
     text-transform: uppercase;
     color: rgba(224, 171, 122, 0.93);
+    text-shadow: 1px 1px #444;
 }
 .Detail {
     font-family: 'DIN';
@@ -277,6 +280,7 @@
     line-height: 19px;
     text-transform: uppercase;
     color: rgba(224, 171, 122, 0.93);
+    text-shadow: 1px 1px #444;
 }
 .inviaition_detail {
     font-family: 'DIN Alternate';
@@ -347,6 +351,7 @@
     text-transform: uppercase;
 
     color: rgba(224, 171, 122, 0.93);
+    text-shadow: 1px 1px #444;
 }
 .project_detail {
     font-family: 'DIN';
