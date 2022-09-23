@@ -27,6 +27,21 @@
     margin-left: 65px;        
 }
 
+#copywrite {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 45px; 
+    
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 #styleFootList {
     position: absolute;
     margin-left: 300px;
@@ -50,11 +65,18 @@
     #styleFootList {
         margin-left: 200px;
     }
+    #copywrite {
+        margin-left: 5px; 
+    }
 }
 
 @media (max-width: 400px){
     .foottext {
         margin-bottom: 2px;
+    }
+    #copywrite {
+        font-size: 10px;
+        margin-left: 3px; 
     }
     .styleFooter {
         height: 140px;

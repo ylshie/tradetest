@@ -29,7 +29,7 @@ export default function pageCollection() {
                         <div className={styles.box}>
                             <div className={styles.image}>{MyBan("c_2022-08-03_20.19.png")}</div>
                             <div className={styles.textbox}>
-                                <div className={styles.title}>YAGAMI  SHIRANUI</div>
+                                <div className={styles.title}>YAGAMI &amp; SHIRANUI</div>
                             </div>   
                         </div>
                     </a>

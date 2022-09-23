@@ -25,6 +25,13 @@ class Partner extends React.Component {
                                 alt="SecondLive"
                         />
                 </div>
+                <div className={styles.iconSNK}>
+                    <Image  src= {"/images/SNK-logo.png"} // Route of the image file
+                                height={134} // Desired size with correct aspect ratio
+                                width={200} // Desired size with correct aspect ratio
+                                alt="SecondLive"
+                        />
+                </div>
             </div>
         )
     }

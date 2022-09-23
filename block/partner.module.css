@@ -1,5 +1,5 @@
 .stylePartner {
-    height: 142px;
+    height: 132px;
     background: linear-gradient(102.98deg, #D3D4D5 5.39%, rgba(224, 171, 122, 0.291667) 40.84%, rgba(224, 171, 122, 0.291667) 65.09%);
     font-family: ABeeZee;
     font-style: normal;
@@ -29,15 +29,66 @@
     padding-top: 40px;
 }
 
+.iconSNK {
+    position: absolute;
+    padding-left: 900px;
+    padding-top: 10px;
+}
+
+@media (max-width: 1200px){
+    .iconNewave {
+        padding-left: 250px;
+    }
+    .iconSecondLive {
+        padding-left: 500px;
+    }
+    .iconSNK {
+        padding-left: 750px;
+    }
+}
+
+@media (max-width: 1000px){
+    .partnerText {
+        padding-left: 50px;
+    }
+    .iconNewave {
+        padding-left: 210px;
+    }
+    .iconSecondLive {
+        padding-left: 420px;
+    }
+    .iconSNK {
+        padding-left: 630px;
+    }
+}
+
+@media (max-width: 800px){
+    .partnerText {
+        padding-left: 50px;
+    }
+    .iconNewave {
+        height: 48px;
+        padding-top: 10px;
+    }
+    .iconSecondLive {
+        height: 48px;
+        padding-top: 10px;
+        padding-left: 420px;
+    }
+    .iconSNK {
+        padding-top: 35px;
+        padding-left: 185px;
+    }
+}
+
 @media (max-width: 400px){
     .stylePartner {
-        font-size: 20px;
-        height: 120px;
+        font-size: 30px;
+        height: 160px;
     }
     .partnerText {
-        position: absolute;
-        padding-left: 20px;
-        padding-top: 40px;
+        padding-top: 16px;
+        padding-left: 10px;
     }
     .iconNewave {
         width: 160px;
@@ -45,11 +96,14 @@
         padding-top: 10px;
         padding-left: 160px;
     }
-    
     .iconSecondLive {
         width: 160px;
         height: 48px;
         padding-top: 60px;
         padding-left: 160px;
+    }
+    .iconSNK {
+        padding-top: 68px;
+        padding-left: 135px;
     }
 }

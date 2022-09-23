@@ -14,6 +14,9 @@ class Footer extends React.Component {
                         alt="Demo"
                     />
                 </div>
+                <div id={styles.copywrite}> 
+                Trade3.0 all right reserved
+                </div>
                 <div id={styles.styleFootList}>
                     <div className={styles.foottext}><a href="https://twitter.com/TRADE3_0">TWITTER</a></div>
                     <div className={styles.foottext}><a href="https://discord.gg/gR67UnMVeK">DISCORD</a></div>
