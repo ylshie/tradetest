@@ -17,6 +17,10 @@ var SubTitle = ({ children }) => {
   return <div id={styles["CommunityTitle"]}>{children}</div>;
 }
 
+var SpaceBlock = ({ children }) => {
+  return <div className={styles.spcae_block}>{children}</div>;
+}
+
 export default function Trade3() {
   return (
     <>
@@ -27,8 +31,11 @@ export default function Trade3() {
           <div className="backimage"></div>
             <Header/>
             <Banner/>
+            <SpaceBlock></SpaceBlock>
             <CommingSoon/>
+            <SpaceBlock></SpaceBlock>
             <Blogger/>
+            <SpaceBlock></SpaceBlock>
             <SubTitle>COMMUNITY</SubTitle>
             <Community/>
             <Partner/>

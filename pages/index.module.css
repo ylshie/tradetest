@@ -7,4 +7,19 @@
     text-align: center;
     text-transform: uppercase;
     color: #000000;
+    margin-bottom: 40px;
+}
+
+.spcae_block {
+    width: 100%;
+    height: 100px;
+}
+
+@media (max-width: 400px){
+    #CommunityTitle  {
+        margin-bottom: 20px;
+    }
+    .spcae_block {
+        height: 60px;
+    }
 }

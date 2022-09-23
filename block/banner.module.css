@@ -120,12 +120,6 @@
     /*    height: 90px; */
         font-size: 32px;
     }
-    #styleDetail  {
-        width:  340px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    /*    height: 48px; */
-    }
     .block_container {
         width: 340px;
         height: 300px;
@@ -152,7 +146,10 @@
         text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
     }
     #styleDetail  {
-        width:  360px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        width:  340px;
         font-size: 16px;
         text-align: center;
     }
