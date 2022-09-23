@@ -3,6 +3,11 @@ import Image from 'next/image';
 //
 import styles from './header.module.css';
 
+const twitterURL = "https://twitter.com/TRADE3_0";
+const FBURL = "https://www.facebook.com/profile.php?id=100086136156050"
+//"https://www.facebook.com/profile.php?id=100083408177430"
+const DCURL = "https://discord.gg/gR67UnMVeK"
+
 class Header extends React.Component {
     render() {
         return (
@@ -30,7 +35,7 @@ class Header extends React.Component {
                 </span>
                 <span className={styles.iconbox}>
                     <span id={styles.iconTwitter} className={styles.icon}>
-                        <a href="https://twitter.com/TRADE3_0">
+                        <a href={twitterURL}>
                             <Image  src= {"/images/Twitter.png"} // Route of the image file
                                     height={30} // Desired size with correct aspect ratio
                                     width={30} // Desired size with correct aspect ratio
@@ -39,7 +44,7 @@ class Header extends React.Component {
                         </a>
                     </span>
                     <span id={styles.iconFB} className={styles.icon}>
-                        <a href="https://www.facebook.com/profile.php?id=100083408177430">
+                        <a href={FBURL}>
                             <Image  src= {"/images/FB.png"} // Route of the image file
                                     height={30} // Desired size with correct aspect ratio
                                     width={30} // Desired size with correct aspect ratio
@@ -48,7 +53,7 @@ class Header extends React.Component {
                         </a>
                     </span>
                     <span id={styles.iconDC} className={styles.icon}>
-                        <a href="https://discord.gg/gR67UnMVeK">
+                        <a href={DCURL}>
                             <Image  src= {"/images/DC.png"} // Route of the image file
                                     height={30} // Desired size with correct aspect ratio
                                     width={30} // Desired size with correct aspect ratio
