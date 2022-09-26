@@ -15,9 +15,9 @@ class Header extends React.Component {
                 <span id={styles.logo}>
                     <a href="/">
                         <Image
-                            src= {"/images/LOGO.png"} 
+                            src= {"/images/logo.png"} 
                             layout="fill"
-                            alt="LOGO"
+                            alt="logo"
                         />
                     </a>
                 </span>
