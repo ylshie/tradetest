@@ -11,6 +11,10 @@ class Community extends React.Component {
                     <div>
                         <div className={styles.video_box}>
                             <video  loop controls muted 
+                                    src="./videos/400X200.mp4" 
+                                    width="100%">
+                            </video>
+                            <video  loop controls muted 
                                     src="./videos/sequence01.mp4" 
                                     width="100%">
                             </video>
