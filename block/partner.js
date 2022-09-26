@@ -10,7 +10,7 @@ class Partner extends React.Component {
                 <div className={styles.partnerText}>
                 PARTNER
                 </div>
-                
+                {/*
                 <div className={styles.iconNewave}>
                     <Image  src= {"/images/Newave_Capital_logo.png"} // Route of the image file
                                 height={53} // Desired size with correct aspect ratio
@@ -18,6 +18,7 @@ class Partner extends React.Component {
                                 alt="Newave"
                         />
                 </div>
+                */}
                 <div className={styles.iconSecondLive}>
                     <Image  src= {"/images/SecondLive-logo.png"} // Route of the image file
                                 height={60} // Desired size with correct aspect ratio
@@ -29,6 +30,13 @@ class Partner extends React.Component {
                     <Image  src= {"/images/SNK-logo.png"} // Route of the image file
                                 height={134} // Desired size with correct aspect ratio
                                 width={200} // Desired size with correct aspect ratio
+                                alt="SecondLive"
+                        />
+                </div>
+                <div className={styles.iconQueen}>
+                    <Image  src= {"/images/queen.png"} // Route of the image file
+                                height={122} // Desired size with correct aspect ratio
+                                width={178} // Desired size with correct aspect ratio
                                 alt="SecondLive"
                         />
                 </div>

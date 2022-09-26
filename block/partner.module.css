@@ -25,14 +25,19 @@
 
 .iconSecondLive {
     position: absolute;
-    padding-left: 600px;
+    padding-left: 300px; /*600px;*/
     padding-top: 40px;
 }
 
 .iconSNK {
     position: absolute;
-    padding-left: 900px;
+    padding-left: 600px; /*900px;*/
     padding-top: 10px;
+}
+.iconQueen {
+    position: absolute;
+    padding-left: 900px;
+    padding-top: 15px;
 }
 
 @media (max-width: 1200px){
@@ -40,9 +45,12 @@
         padding-left: 250px;
     }
     .iconSecondLive {
-        padding-left: 500px;
+        padding-left: 250px; /*500px;*/
     }
     .iconSNK {
+        padding-left: 500px; /*750px;*/
+    }
+    .iconQueen {
         padding-left: 750px;
     }
 }
@@ -55,9 +63,12 @@
         padding-left: 210px;
     }
     .iconSecondLive {
-        padding-left: 420px;
+        padding-left: 210px; /*420px;*/
     }
     .iconSNK {
+        padding-left: 420px; /*630px;*/
+    }
+    .iconQueen {
         padding-left: 630px;
     }
 }
@@ -73,18 +84,22 @@
     .iconSecondLive {
         height: 48px;
         padding-top: 10px;
-        padding-left: 420px;
+        /*padding-left: 420px;*/
     }
     .iconSNK {
-        padding-top: 35px;
-        padding-left: 185px;
+        padding-top: 35px; /*35px;*/
+        padding-left: 185px; /*185px;*/
+    }
+    .iconQueen {
+        padding-top: 10px;
+        padding-left: 420px;
     }
 }
 
 @media (max-width: 400px){
     .stylePartner {
         font-size: 30px;
-        height: 160px;
+        height: 220px;
     }
     .partnerText {
         padding-top: 16px;
@@ -99,11 +114,15 @@
     .iconSecondLive {
         width: 160px;
         height: 48px;
-        padding-top: 60px;
+        padding-top: 10px; /*60px;*/
         padding-left: 160px;
     }
     .iconSNK {
-        padding-top: 68px;
+        padding-top: 25px; /*68px;*/
+        padding-left: 135px;
+    }
+    .iconQueen {
+        padding-top: 120px; /*35px;*/
         padding-left: 135px;
     }
 }
